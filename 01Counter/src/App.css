@@ -1,0 +1,17 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+p{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
