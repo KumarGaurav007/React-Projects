@@ -8,12 +8,13 @@ Each project focuses on a **core React concept**, gradually building real-world 
 ## 📂 Project Structure
 
 ```text
-REACT-PROJECTS/
+REACT-PROJECTS
 │
-├── 01Counter/
-├── 02TailwindProps/
-├── 03BgChanger/
-├── 04PassWordGenerator/
+|--> 01Counter
+|--> 02TailwindProps
+|--> 03BgChanger
+|--> 04PassWordGenerator
+|--> 05CurrencyConvertor
 │
 ├── package-lock.json
 └── README.md

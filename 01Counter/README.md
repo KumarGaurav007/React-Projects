@@ -2,6 +2,8 @@
 
 A simple yet effective **React Counter Application** built to understand **state management, event handling, conditional rendering, and button disabling** in React.
 
+![Counter Banner](./src/assets/banner.png)  
+
 This project is part of my **project-based React learning journey**.
 
 ---
