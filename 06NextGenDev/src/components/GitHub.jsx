@@ -14,16 +14,16 @@ function GitHub() {
     <>
       <div className='  p-5 m-5  flex items-center content-center'>
         <div className='ml-80 mt-10 mb-10'>
-          <img src={data.avatar_url} alt="display picture" className='w-60 m-4 rounded' />
+          <img src={data.avatar_url} alt="display picture" className='w-60 m-4 rounded-2xl border-3 border-black' />
         </div>
-        <div className='text-2xl ml-10 mt-10 mb-10'>
-          <h1>Name : {data.name}</h1>
-          <h4>User Id : {data.login}</h4>
-          <h4>City : {data.location}</h4>
-          <h4>Public Repository : {data.public_repos}</h4>
-          <h4>Follower : {data.followers}</h4>
-          <h4>Following : {data.following}</h4>
-          <h4>URL : {data.html_url}</h4>
+        <div className='text-xl ml-10 mt-10 mb-10'>
+          <h1>Name : <span className='font-bold'> {data.name}</span></h1>
+          <h4>User Id : <span className='font-bold'> {data.login}</span></h4>
+          <h4>City : <span className='font-bold'> {data.location}</span></h4>
+          <h4>Public Repository : <span className='font-bold'> {data.public_repos}</span></h4>
+          <h4>Follower : <span className='font-bold'> {data.followers}</span></h4>
+          <h4>Following : <span className='font-bold'> {data.following}</span></h4>
+          <button className='text-white font-bold text-xl bg-orange-700 p-2 rounded-xl mt-2 '><a href={data.html_url}>Click here to go to GitHub</a> </button>
         </div>
       </div>
     </>
