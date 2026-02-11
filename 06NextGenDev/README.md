@@ -8,7 +8,7 @@ This project focuses on **real-world SPA (Single Page Application) architecture*
 ---
 
 ## Live Demo (GIF)
-![Demo](./src/assets//demo.gif)
+![Demo](./src/assets/demo.gif)
 
 ## ✨ Key Features
 
